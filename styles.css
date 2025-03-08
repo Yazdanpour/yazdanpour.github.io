@@ -175,3 +175,28 @@ a:hover {
     font-size: 0.9em;
     color: #555;
 }
+
+/* Demo Grid */
+.demo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.demo-item {
+    text-align: center;
+}
+
+.demo-item canvas {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.demo-item p {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+}
