@@ -5,7 +5,7 @@ let TetrisPiece;
 function setup() {
 	//createCanvas(windowWidth, windowHeight);
 	let canvas = createCanvas(1000,1000);
-    canvas.parent('sketch1');
+    canvas.parent('TilingTetrisPieces.js');
 	angleMode(DEGREES);
 	colorMode(HSB);
 	background(120,50,87);
