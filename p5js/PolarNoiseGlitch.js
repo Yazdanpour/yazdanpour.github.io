@@ -2,8 +2,8 @@ const colorPal= ["#FFF05A", "#FFD25A", "#FFAA5A", "#FF785A", "#191919"];
 const n = 53
 let grid = []
 function setup() {
-    const m = min(1000, 1000)
-    createCanvas(m, m)
+let canvas = createCanvas(1000,1000);
+canvas.parent('PolarNoiseGlitch.js');
 	  angleMode(DEGREES)
     for (let x = 0; x < n; x++) {
         grid[x] = []
