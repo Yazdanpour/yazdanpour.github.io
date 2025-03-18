@@ -67,29 +67,64 @@ body {
 }
 
 /* Gallery & Demo Grids */
-.gallery-grid, .demo-grid {
+.gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 25px;
     margin-top: 20px;
 }
 
-.gallery-item img, .demo-item canvas {
+.gallery-item img {
     max-width: 100%;
     border: 2px solid #007BFF;
     border-radius: 8px;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.gallery-item img:hover, .demo-item canvas:hover {
+.gallery-item img:hover {
     transform: scale(1.1);
     box-shadow: 0 0 15px rgba(0, 123, 255, 0.7); /* Blue glow */
 }
 
-.gallery-item p, .demo-item p {
+.gallery-item p {
     margin-top: 10px;
     font-size: 1em;
     color: #FFD700; /* Gold captions */
+}
+/* Demo Grid - Vertical Layout */
+.demo-grid {
+    display: flex;
+    flex-direction: column; /* Stack vertically */
+    gap: 25px; /* Space between demos */
+    margin-top: 20px;
+    width: 100%; /* Full width */
+    align-items: center; /* Center items horizontally */
+}
+
+.demo-item {
+    text-align: center;
+    width: 100%; /* Full width of container */
+    max-width: 400px; /* Cap demo width to match canvas max */
+}
+
+.demo-item canvas {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #007BFF;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: block;
+}
+
+.demo-item canvas:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.7);
+}
+
+.demo-item p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #FFD700;
 }
 
 /* Resume Specifics */
