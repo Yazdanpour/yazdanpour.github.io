@@ -415,7 +415,7 @@ TetrisPiece = new TetrisShape(mouseX,mouseY,d)
 function setup() {
 	let canvas = createCanvas(1000, 1000, WEBGL);
     canvas.parent('sketch2');
-	createEasyCam({distance:1000})
+	camera(0, 0, 1000, 0, 0, 0, 0, 1, 0);
 }
 
 function draw() {
