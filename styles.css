@@ -104,7 +104,7 @@ body {
 .demo-item {
     text-align: center;
     width: 100%; /* Full width of container */
-    max-width: 400px; /* Cap demo width to match canvas max */
+    max-width: 1000px; /* Cap demo width to match canvas max */
 }
 
 .demo-item canvas {
