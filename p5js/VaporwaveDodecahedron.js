@@ -1,7 +1,7 @@
 var phi = (1+Math.sqrt(5))/2;
 function setup() {
 	let canvas = createCanvas(1000, 1000, WEBGL);
-    canvas.parent('sketch2');
+    canvas.parent('VaporwaveDodecahedron.js');
 	camera(0, 0, 1000, 0, 0, 0, 0, 1, 0);
 }
 
