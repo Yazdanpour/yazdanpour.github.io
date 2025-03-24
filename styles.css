@@ -10,7 +10,7 @@ body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     color: #fff; /* White text for contrast */
-    background: linear-gradient(135deg, #1a1a3d, #2e2e5c); /* Dark gradient bg */
+    background: linear-gradient(135deg, #DDA820, #5B0A92); /* Dark gradient bg */
 }
 
 /* Sidebar */
